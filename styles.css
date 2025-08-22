@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -78,8 +80,8 @@ button {
 }
 
 .left {
-
     justify-content: space-evenly;
+    gap: 8px;
 }
 
 .right {
