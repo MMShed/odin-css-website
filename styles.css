@@ -58,7 +58,7 @@ a {
 .container {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 60px;
     margin-bottom: 96px;
 }
 
@@ -94,11 +94,20 @@ button {
 /*This is for the information section*/
 
 .info-section {
-    margin-bottom: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
 }
 
 .info-section .title {
     text-align: center;
+}
+
+.title {
+    margin-bottom: 48px;
+
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .img-holder {
@@ -107,7 +116,7 @@ button {
     
     border-style: solid;
     border-radius: 15px;
-    
+    border-color: #3882f6;
 }
 
 .info-box {
@@ -129,11 +138,27 @@ button {
 .quote-section {
     display: flex;
     justify-content: center;
+
+    background-color: #e5e7eb;
 }
 
 .quote-container {
-    width: 400px;
+    width: 800px;
+    padding: 100px 0;
 }
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 800;
+}
+
 
 /*Action Section*/
 
@@ -141,19 +166,26 @@ button {
     border-style: none;
     background-color: #3882f6;
     padding: 48px 48px;
-    margin: 196px 196px;
+    margin: 196px 340px;
+    border-radius: 5px;
+}
+
+.action-section .signupButton {
+    border-style: solid;
+    border-color: #e5e7eb;
 }
 
 .action-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 48px;
+    gap: 196px;
 }
 
 .text-container {
     display: flex;
     flex-direction: column;
+    color: #F9FAF8;
 }
 
 
@@ -163,4 +195,6 @@ button {
     text-align: center;
     background-color: #1f2937;
     padding: 24px 48px;
+    color: #e7e5eb;
+    padding: 36px 0;
 }
