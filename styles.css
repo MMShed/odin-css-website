@@ -93,6 +93,10 @@ button {
 
 /*This is for the information section*/
 
+.info-section {
+    margin-bottom: 48px;
+}
+
 .info-section .title {
     text-align: center;
 }
@@ -118,6 +122,38 @@ button {
     display: flex;
     justify-content: center;
     gap: 24px;
+}
+
+/*Inspiring Quote Section*/
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    width: 400px;
+}
+
+/*Action Section*/
+
+.action-section {
+    border-style: none;
+    background-color: #3882f6;
+    padding: 48px 48px;
+    margin: 196px 196px;
+}
+
+.action-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
 }
 
 
